@@ -21,6 +21,7 @@ namespace Strings
                 result += i;
                 //result = result + i;
             }
+
             stopWatch1.Stop();
             Console.WriteLine($"With string: {stopWatch1.Elapsed}");
 
